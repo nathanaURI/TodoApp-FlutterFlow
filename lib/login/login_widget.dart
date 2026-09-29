@@ -153,10 +153,10 @@ class _LoginWidgetState extends State<LoginWidget>
                               indicatorColor: Color(0x0089DC8C),
                               tabs: [
                                 Tab(
-                                  text: 'Signup',
+                                  text: 'signup',
                                 ),
                                 Tab(
-                                  text: 'Login',
+                                  text: 'login',
                                 ),
                               ],
                               controller: _model.tabBarController,
@@ -781,7 +781,7 @@ class _LoginWidgetState extends State<LoginWidget>
                                                               .labelMedium
                                                               .fontStyle,
                                                     ),
-                                            hintText: 'Email...',
+                                            hintText: 'email...',
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
@@ -962,7 +962,7 @@ class _LoginWidgetState extends State<LoginWidget>
                                                               .labelMedium
                                                               .fontStyle,
                                                     ),
-                                            hintText: 'Password...',
+                                            hintText: 'password...',
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
