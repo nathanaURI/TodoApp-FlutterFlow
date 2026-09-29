@@ -153,10 +153,10 @@ class _LoginWidgetState extends State<LoginWidget>
                               indicatorColor: Color(0x0089DC8C),
                               tabs: [
                                 Tab(
-                                  text: 'Signup',
+                                  text: 'signup',
                                 ),
                                 Tab(
-                                  text: 'Login',
+                                  text: 'login',
                                 ),
                               ],
                               controller: _model.tabBarController,
